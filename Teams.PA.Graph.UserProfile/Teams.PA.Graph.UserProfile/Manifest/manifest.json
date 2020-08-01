@@ -6,9 +6,9 @@
   "packageName": "com.ejazhussain.teams.personalapps.userprofile",
   "developer": {
     "name": "Ejaz Hussain",
-    "websiteUrl": "https://ehteamsapp.com.ngrok.io",
-    "privacyUrl": "https://ehteamsapp.com.ngrok.io/privacy",
-    "termsOfUseUrl": "https://ehteamsapp.com.ngrok.io/tou"
+    "websiteUrl": "https://helloteamsapp.com.ngrok.io",
+    "privacyUrl": "https://helloteamsapp.com.ngrok.io/privacy",
+    "termsOfUseUrl": "https://helloteamsapp.com.ngrok.io/tou"
   },
   "icons": {
     "color": "color.png",
@@ -27,7 +27,7 @@
     {
       "entityId": "Home",
       "name": "Home",
-      "contentUrl": "https://ehteamsapp.com.ngrok.io/fetch-userprofile",
+      "contentUrl": "https://helloteamsapp.com.ngrok.io/fetch-userprofile",
       "scopes": [
         "personal"
       ]
@@ -38,10 +38,10 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "ehteamsapp.com.ngrok.io"
+    "helloteamsapp.com.ngrok.io"
   ],
   "webApplicationInfo": {
-    "id": "454c6221-4c94-4582-9846-da009415ab8e",
-    "resource": "api://ehteamsapp.com.ngrok.io/454c6221-4c94-4582-9846-da009415ab8e"
+    "id": "200c6496-6c71-4582-9846-tw009914ab8e",
+    "resource": "api://helloteamsapp.com.ngrok.io/200c6496-6c71-4582-9846-tw009914ab8e"
   }
 }
