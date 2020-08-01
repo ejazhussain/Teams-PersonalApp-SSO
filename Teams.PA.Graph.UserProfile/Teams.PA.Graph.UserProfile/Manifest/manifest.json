@@ -1,0 +1,47 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.5",
+  "version": "1.0.0",
+  "id": "4b8d2936-4e5f-4563-83ca-4bdad686c788",
+  "packageName": "com.ejazhussain.teams.personalapps.userprofile",
+  "developer": {
+    "name": "Ejaz Hussain",
+    "websiteUrl": "https://ehteamsapp.com.ngrok.io",
+    "privacyUrl": "https://ehteamsapp.com.ngrok.io/privacy",
+    "termsOfUseUrl": "https://ehteamsapp.com.ngrok.io/tou"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "Get User Profile",
+    "full": "Get User Profile"
+  },
+  "description": {
+    "short": "Get user profile info using single sign in approach",
+    "full": "Get user profile info using single sign in approach"
+  },
+  "accentColor": "#FFFFFF",
+  "staticTabs": [
+    {
+      "entityId": "Home",
+      "name": "Home",
+      "contentUrl": "https://ehteamsapp.com.ngrok.io/fetch-userprofile",
+      "scopes": [
+        "personal"
+      ]
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "ehteamsapp.com.ngrok.io"
+  ],
+  "webApplicationInfo": {
+    "id": "454c6221-4c94-4582-9846-da009415ab8e",
+    "resource": "api://ehteamsapp.com.ngrok.io/454c6221-4c94-4582-9846-da009415ab8e"
+  }
+}
